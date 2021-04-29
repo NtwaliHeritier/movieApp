@@ -6,6 +6,7 @@ In this project, I used Notion as my backend to display content on my gatsby web
 
 | Contents                    |
 | --------------------------- |
+| [Live Demo](#live-demo)
 | [Built With](#built-with-🛠)|
 | [Authors](#authors)         |
 | [License](#license)         |
@@ -24,6 +25,10 @@ In this project, I used Notion as my backend to display content on my gatsby web
 - Gatsby JS
 - Vanilla JS
 ```
+
+## Live Demo
+
+[Live demo](https://vibrant-benz-7b7600.netlify.app//)
 
 ## Getting Started
 

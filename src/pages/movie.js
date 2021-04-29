@@ -8,7 +8,7 @@ const Movie = ({edge}) => {
 
   useEffect(() => {
     setEdge(edge);
-  })
+  }, [])
 
   const [hover, setHover] = useState(false);
 

@@ -1,4 +1,4 @@
-# Catalog of Statistics
+# Movie App
 
 In this project, I used Notion as my backend to display content on my gatsby website.
 
@@ -10,6 +10,11 @@ In this project, I used Notion as my backend to display content on my gatsby web
 | [Built With](#built-with-🛠)|
 | [Authors](#authors)         |
 | [License](#license)         |
+
+## Screenshots
+
+![screenshot](./screenshots/screenshot1.PNG)
+![screenshot](./screenshots/screenshot2.PNG)
 
 ## Built With 🛠
 

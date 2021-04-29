@@ -13,6 +13,8 @@
 img {
 	display: block;
 	margin: auto;
+	height: 40vh !important;
+	width: 30vw !important;
 }
 
 .movie-descr {

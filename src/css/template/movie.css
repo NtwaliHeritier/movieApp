@@ -1,0 +1,26 @@
+.movie-div {
+	margin: 2% 0 1%;
+}
+
+.movie-title {
+	display: block;
+	text-align: center;
+	margin-bottom: 2%;
+	font-weight: 900;
+	font-size: 2em;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+.movie-descr {
+	margin-top: 2%;
+	padding: 2%;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: larger;
+}

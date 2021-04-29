@@ -1,0 +1,13 @@
+.nav {
+	background-color: #000;
+}
+
+.title {
+	text-align: center;
+	padding: 3%;
+}
+
+.link {
+	text-decoration: none;
+	color: #fff;
+}

@@ -6,7 +6,6 @@ In this project, I used Notion as my backend to display content on my gatsby web
 
 | Contents                    |
 | --------------------------- |
-| [Live Demo](#live-demo)     |
 | [Built With](#built-with-🛠)|
 | [Authors](#authors)         |
 | [License](#license)         |

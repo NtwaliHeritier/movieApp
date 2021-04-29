@@ -1,8 +1,14 @@
 import { Link } from 'gatsby';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import "../css/movie.css";
 
 const Movie = ({edge}) => {
+
+  const [pageEdge, setEdge] = useState(undefined);
+
+  useEffect(() => {
+    setEdge(edge);
+  })
 
   const [hover, setHover] = useState(false);
 
@@ -12,6 +18,10 @@ const Movie = ({edge}) => {
 
   const handleLeave = () => {
     setHover(false)
+  }
+
+  if(pageEdge === undefined) {
+    return <div>Loading...</div>
   }
 
   return ( 

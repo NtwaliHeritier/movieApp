@@ -13,7 +13,10 @@ In this project, I used Notion as my backend to display content on my gatsby web
 
 ## Screenshots
 
+### Main page
 ![screenshot](./screenshots/screenshot1.PNG)
+
+#### Description page
 ![screenshot](./screenshots/screenshot2.PNG)
 
 ## Built With 🛠

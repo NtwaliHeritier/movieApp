@@ -31,7 +31,10 @@ const Movie = ({ edge }) => {
     >
       <div className={`movieTitle${hover ? "" : " display"}`}>
         <h3>{edge.node.Name_of_the_Movie}</h3>
-        <Link to={`/movie/${edge.node.fields.slug}`} className="movieButton">
+        <Link
+          to={`/movie/${edge.node.Name_of_the_Movie.split(" ").join("-")}`}
+          className="movieButton"
+        >
           Details
         </Link>
       </div>
@@ -45,3 +48,4 @@ const Movie = ({ edge }) => {
 }
 
 export default Movie
+// <Link to={`/movie/${edge.node.fields.slug}`} className="movieButton">
